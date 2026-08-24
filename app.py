@@ -45,7 +45,7 @@ h1 {
 """, unsafe_allow_html=True)
 
 # ---------------- LOAD MODEL ---------------- #
-model = pickle.load(open('gb_model.pkl','wb'))
+model = pickle.load(open('gb_model.pkl','rb'))
 
 # ---------------- SIDEBAR ---------------- #
 st.sidebar.title("📌 Navigation")
